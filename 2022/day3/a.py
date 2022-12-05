@@ -66,6 +66,4 @@ with open('input.txt', 'r') as f:
         s1, s2 = split_string(i)
         common_character = ''.join(set(s1).intersection(s2))
         sum_of_priorities += PRIORITY_DICT[common_character]
-        # print(PRIORITY_DICT[common_character])
-        # print(common_character)
-print(sum_of_priorities)
+print("Part1: ", sum_of_priorities)
