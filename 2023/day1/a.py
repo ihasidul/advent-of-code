@@ -24,9 +24,7 @@ with open('input.txt', 'r') as f:
     lines = f.read().split()
 
     for line in lines:
-        print(line)
         total = total + find_integer(line)
-        print(f"The number is {find_integer(line)}")
         print(f"Total is {total}")
 
 
